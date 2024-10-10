@@ -1,0 +1,128 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ddd;
+        }
+        header {
+            background: #76b900;
+            color: #fff;
+            padding: 10px 0;
+            height: 30px;
+            width: 100%;
+            top: 0;
+            position: fixed;
+            display: flex;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            margin: 12px;
+            font-size: 24px;
+            color: #333;
+        }
+        h4 {
+            text-align: center;
+            margin: 12px;
+            color: #ddd;
+        }
+        ul {
+            list-style-type: none;
+            padding: 10px;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 10px solid #333;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .social-buttons {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .social-button {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 25px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .tiktok {
+            background-color: #000000;
+        }
+
+        .tiktok:hover {
+            background-color: #080909;
+            transform: scale(1.05);
+        }
+
+        .instagram {
+            background-color: #e4405f;
+        }
+
+        .instagram:hover {
+            background-color: #c13584;
+            transform: scale(1.05);
+        }
+        .content {
+            margin-top: 100px;
+        }
+        section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
