@@ -2,143 +2,25 @@
 <html>
 <head>
     <title>Daftar GPU</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ddd;
-        }
-        header {
-            background: #76b900;
-            color: #fff;
-            padding: 10px 0;
-            width: 100%;
-            top: 0;
-            position: fixed;
-            text-align: center;
-        }
-
-        h1 {
-            text-align: center;
-        }
-        ul {
-            list-style-type: none;
-            padding: 10px;
-        }
-        li {
-            padding: 10px;
-            border-bottom: 10px solid #333;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Style the heading */
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-/* Style form labels */
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-}
-
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-/* Container for social buttons */
-.social-buttons {
-    text-align: center;
-    margin-top: 50px;
-}
-
-/* Style for social media buttons */
-.social-button {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    padding: 15px 25px;
-    margin: 10px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-/* Twitter button style */
-.tiktok {
-    background-color: #000000;
-}
-
-.tiktok:hover {
-    background-color: #080909;
-    transform: scale(1.05);
-}
-
-/* Instagram button style */
-.instagram {
-    background-color: #e4405f;
-}
-
-.instagram:hover {
-    background-color: #c13584;
-    transform: scale(1.05);
-}
-.content {
-    margin-top: 50px;
-}
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
     <h1>NVIDIA</h1>
+    <h4>
+    <a href="#satu">Home</a>
+    <a href="#dua">Product</a>
+    <a href="#tiga">Contact</a>
+    <a href="#empat">Social</a>
+</h4>
 </header>
+<id="top"></id>
 
     <ul>
-        <div class="content">
+        <div class="content">    
+        <div class="section">
         <li>
+            <section id="dua">
             <strong>NVIDIA RTX 4090</strong>
             <div class="photo1">
                 <img src="gambar/4090.jpeg" alt="4090" height="200" width="350">
@@ -148,9 +30,14 @@ button:hover {
                 produktivitas yang belum pernah ada sebelumnya, dan cara baru untuk berkarya. Kartu grafis ini 
                 didukung oleh arsitektur NVIDIA Ada Lovelace dan dilengkapi dengan memori G6X 24 GB untuk 
                 menghadirkan pengalaman terbaik bagi para penggemar game dan pembuat konten.</div></p>
+            </section>
+            <a href="#top">Naik!</a>
         </li>
         </div>
-        <li>
+        </div>
+        <div class="content">
+        <div class="section">
+        <li>   
             <strong>NVIDIA RTX 3090</strong>
             <div class="photo">
                 <img src="gambar/3090.jpeg" alt="3090" height="200" width="350">
@@ -159,27 +46,34 @@ button:hover {
                 dan AI dengan Ray Tracing Core, Tensor Core, dan multiprosesor streaming baru yang disempurnakan. 
                 Selain itu, perangkat ini dilengkapi memori G6X 24 GB andal, semuanya untuk menghadirkan pengalaman 
                 terbaik bagi penggemar game dan pembuat konten.</div></p>
+                <a href="#top">Naik!</a>
         </li>
-    </ul>
-    <li>
-        <div class="container">
-            <h1>Contact Us</h1>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-    
-                <button type="submit">Send Message</button>
-            </form>
         </div>
-    </li>
+        </div>
+    </ul>
+    <div class="content">
+        <section id="tiga">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+                <a href="#top">Naik!</a>
+            </div>
+        </section>
+        </div>
     
-    <div class="social-buttons">
+    <section id="empat">
+        <div class="social-buttons">
         </a>
         <a href="https://www.tiktok.com/@xi.an.ying?_t=8peBiU5Stzs&_r=1" class="social-button tiktok" target="_blank" rel="noopener noreferrer">
             TikTok
@@ -188,5 +82,6 @@ button:hover {
             Instagram
         </a>
     </div>
+</section>
 </body>
 </html>
